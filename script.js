@@ -3,7 +3,7 @@ const option2 = 'option2';
 const option3 = 'option3'; 
 const option4 = 'option4';
 
-const request = prompt('choose option'); 
+const request = prompt('choose option between: "option1", "option2", "option3", "option4" to receive the corresponding message.'); 
 
   if (request === option1) {
     alert(option1);

@@ -2,7 +2,7 @@
 //  utente sceglierà tra 4 opzioni, e ogni scelt aprodurrà 
 //  diverso; con switch; 
 
-const request = prompt('choose option'); 
+const request = prompt('choose option between: "option1", "option2", "option3", "option4" to receive the corresponding message.'); 
 
 switch (request){ 
     case 'option1': 
@@ -21,3 +21,10 @@ switch (request){
         alert('invalid input'); 
         break
 }
+
+//select.addEventListener('change, () => (select.value === 'black') ? update('black', 'white') : update('white', 'black')); 
+
+//  function update(bgColor, textColor){ 
+//      html.style.backgroundcolor = bgColor; 
+//      html.style.color = testColor;
+//  }
